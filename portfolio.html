@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <title>PHOTO STUDIO</title>
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lgbg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h4 class="offcanvas-title" id="offcanvasNavbarLabel">Photo Studio</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="portfolio.htmls">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="gallery.html">gallery</a>
+            </li>
+            
+        </div>
+      </div>
+    </div>
+  </nav>
+ 
+
+  <!-- content -->
+  <main>
+    
+
+    <!-- portfolio -->
+    <section id="portfolio" class="vh-100 py-7">
+      <div class="container">
+        <div class="portfolio-content">
+          <div class="title">
+            <h2>Our latest works</h2>
+            <a href="#contact" class="btn-down">
+              <i class="fas fa-chevron-down"></i>
+            </a>
+          </div>
+          <div class="portfolio-grid grid">
+            <div> <img src="assets/portfolio/port-1.jpg" alt=""></div>
+            <div> <img src="assets/portfolio/port-2.jpg" alt=""></div>
+            <div> <img src="assets/portfolio/port-3.jpg" alt=""></div>
+            <div> <img src="assets/portfolio/port-4.jpg" alt=""></div>
+            <div> <img src="assets/portfolio/port-5.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="swiper mySwiper">
+
+      <div class="swiper-wrapper">
+  
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img src="/assets/teams/allen.png" alt="card image">
+          </div>
+  
+          <div class="card__content">
+            <span class="card__title">Programmer/Editor</span>
+            <span class="card__name">Allen Walter F. De Guzman</span>
+            <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+            <button class="card__btn">View More</button>
+          </div>
+        </div>
+  
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img src="/assets/teams/angel.png" alt="card image">
+          </div>
+  
+          <div class="card__content">
+            <span class="card__title">Ui Designer</span>
+            <span class="card__name">Angel T. Coquia</span>
+            <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+            <button class="card__btn">View More</button>
+          </div>
+        </div>
+  
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img src="/assets/teams/yuri.png" alt="card image">
+          </div>
+  
+          <div class="card__content">
+            <span class="card__title">Web Developer</span>
+            <span class="card__name">Yuri Ronquillo</span>
+            <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+            <button class="card__btn">View More</button>
+          </div>
+        </div>
+  
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img src="/assets/teams/lameg.png" alt="card image">
+          </div>
+  
+          <div class="card__content">
+            <span class="card__title">Researcher</span>
+            <span class="card__name">Michael Lameg</span>
+            <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+            <button class="card__btn">View More</button>
+          </div>
+        </div>
+
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img src="/assets/teams/jackman.png" alt="card image">
+          </div>
+  
+          <div class="card__content">
+            <span class="card__title">Researcher</span>
+            <span class="card__name">Jackman Osilla Galiste</span>
+            <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+            <button class="card__btn">View More</button>
+          </div>
+        </div>
+  
+      </div>
+    </section>
+  
+
+  </main>
+  <!-- end-content -->
+
+  <!-- typewriting js -->
+  <script src="typewriting-master/typewriting.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+</body>
+</html>
